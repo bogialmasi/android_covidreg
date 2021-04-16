@@ -10,7 +10,7 @@
         android:id="@+id/reg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sikeres Regizstráció!"
+        android:text="Sikeres Regisztráció!"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="64dp"
         android:textSize="32dp"/>
@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/reg"
+        android:layout_marginTop="80dp"
         />
     <TextView
         android:id="@+id/tajszam"
@@ -28,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/emailcim"
+        android:layout_marginTop="24dp"
         />
 
 </RelativeLayout>
