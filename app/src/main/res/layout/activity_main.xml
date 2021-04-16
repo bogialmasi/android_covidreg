@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Covid Oltás Regisztráció"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="24dp"
         android:textSize="20dp"/>
     <EditText
         android:id="@+id/email"
@@ -21,7 +21,7 @@
         android:layout_below="@id/szoveg"
         android:hint="E-Mail cím"
         android:inputType="textEmailAddress"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
         android:layout_centerHorizontal="true"/>
     <EditText
         android:id="@+id/taj"
@@ -32,5 +32,14 @@
         android:inputType="number"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/taj"
+        android:text="Regisztrálok"
+        android:layout_marginTop="32dp"/>
 
 </RelativeLayout>
