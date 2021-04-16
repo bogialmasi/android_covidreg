@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">covidreg</string>
+    <string name="taj_sz_m">TAJ Szám</string>
+    <string name="regisztr_lok">Regisztrálok</string>
+    <string name="e_mail_c_m">E-Mail cím</string>
 </resources>

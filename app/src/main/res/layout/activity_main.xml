@@ -12,34 +12,36 @@
         android:layout_height="wrap_content"
         android:text="Covid Oltás Regisztráció"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:textSize="20dp"/>
+        android:layout_marginTop="24sp"
+        android:textSize="20sp"/>
 
     <ImageView
         android:id="@+id/maszkoskep"
-        android:layout_width="480dp"
-        android:layout_height="320dp"
+        android:layout_width="480sp"
+        android:layout_height="320sp"
         android:src="@drawable/maszkoskep"
-        android:layout_below="@id/szoveg"/>
+        android:layout_below="@id/szoveg" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/maszkoskep"
-        android:hint="E-Mail cím"
+        android:hint="@string/e_mail_c_m"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="20dp"
-        android:layout_centerHorizontal="true"/>
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:autofillHints="" />
     <EditText
         android:id="@+id/taj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/email"
-        android:hint="TAJ Szám"
+        android:hint="@string/taj_sz_m"
         android:inputType="number"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btn"
@@ -47,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/taj"
-        android:text="Regisztrálok"
-        android:layout_marginTop="32dp"/>
+        android:text="@string/regisztr_lok"
+        android:layout_marginTop="32sp"/>
 
 </RelativeLayout>
