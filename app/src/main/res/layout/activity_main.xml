@@ -14,14 +14,22 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
         android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/maszkoskep"
+        android:layout_width="480dp"
+        android:layout_height="320dp"
+        android:src="@drawable/maszkoskep"
+        android:layout_below="@id/szoveg"/>
+
     <EditText
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/szoveg"
+        android:layout_below="@id/maszkoskep"
         android:hint="E-Mail cím"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"/>
     <EditText
         android:id="@+id/taj"
